@@ -10,13 +10,13 @@ public class ReverseLinkedList
         node1.Next = node2;
         node2.Next = node3;
 
-        LinkedListNode.Print(node1);
-
-        Execute();
+        // 3 -> 2 -> 1
+        var node = Execute(node1);
     }
 
     // TODO: Implement here...
-    private static void Execute()
+    private static LinkedListNode Execute(LinkedListNode node)
     {
+        throw new NotImplementedException();
     }
 }
