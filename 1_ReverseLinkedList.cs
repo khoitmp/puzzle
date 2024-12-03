@@ -11,11 +11,16 @@ public class ReverseLinkedList
         node2.Next = node3;
 
         // 3 -> 2 -> 1
-        var node = Execute(node1);
     }
 
     // TODO: Implement here...
-    private static LinkedListNode Execute(LinkedListNode node)
+    private static void Print(LinkedListNode node)
+    {
+        throw new NotImplementedException();
+    }
+
+    // TODO: Implement here...
+    private static LinkedListNode Reverse(LinkedListNode node)
     {
         throw new NotImplementedException();
     }
